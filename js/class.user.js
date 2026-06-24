@@ -20,3 +20,32 @@
  *      - href="mailto:.." for the email and
  *      - href=".." target="_blank" for the website.
  *  *******************************************************/
+
+export default class User {
+    constructor(id, name, username, email, website) {
+        this.id = id;
+        this.name = name;
+        this.username = username;
+        this.email = email;
+        this.website = website;
+        this.posts = [];
+    }
+
+    render() {
+        return `<div class="user" data-user-id="${this.id}">
+                <h2>${this.name}</h2>
+                <p>@${this.username}</p>
+                <p>
+                    <a href="mailto:${this.email}">
+                        ${this.email}
+                    </a>
+                </p>
+                <p>
+                    <a href="https://${this.website}" target="_blank">
+                        ${this.website}
+                    </a>
+                </p>
+                <div class="posts"></div>
+            </div>`;
+    }
+}
