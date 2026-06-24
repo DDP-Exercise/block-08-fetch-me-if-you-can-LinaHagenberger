@@ -29,7 +29,7 @@ body {
 
 .post {
     background: #f9fafc;
-    border-left: 4px solid #ea77d3;
+    border-left: 4px solid #8aaf93;
     padding: 12px;
     margin-top: 10px;
     border-radius: 8px;
@@ -40,13 +40,13 @@ button.load-comments {
     padding: 6px 10px;
     border: none;
     border-radius: 6px;
-    background: #ea77d3;
+    background: #8aaf93;
     color: white;
     cursor: pointer;
 }
 
 button.load-comments:hover {
-    background: #ea77d3;
+    background: #8aaf93;
 }
 
 .comments {
@@ -64,5 +64,5 @@ button.load-comments:hover {
 }
 
 a {
-    color: #ea77d3;
+    color: #8aaf93;
 }
