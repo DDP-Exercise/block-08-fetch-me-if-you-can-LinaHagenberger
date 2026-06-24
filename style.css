@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+    padding: 20px;
+}
+
+#userContainer {
+    max-width: 900px;
+    margin: auto;
+}
+
+.user {
+    background: white;
+    padding: 16px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    cursor: pointer;
+}
+
+.user h2 {
+    margin: 0 0 5px;
+}
+
+.posts {
+    margin-top: 15px;
+}
+
+.post {
+    background: #f9fafc;
+    border-left: 4px solid #ea77d3;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+button.load-comments {
+    margin-top: 10px;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 6px;
+    background: #ea77d3;
+    color: white;
+    cursor: pointer;
+}
+
+button.load-comments:hover {
+    background: #ea77d3;
+}
+
+.comments {
+    margin-top: 10px;
+    padding-left: 10px;
+    border-left: 2px solid #ddd;
+}
+
+.comment {
+    background: white;
+    padding: 8px;
+    margin-top: 8px;
+    border-radius: 6px;
+    font-size: 13px;
+}
