@@ -62,3 +62,7 @@ button.load-comments:hover {
     border-radius: 6px;
     font-size: 13px;
 }
+
+a {
+    color: #ea77d3;
+}
