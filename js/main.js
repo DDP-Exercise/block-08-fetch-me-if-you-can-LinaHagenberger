@@ -72,7 +72,7 @@ function printUsers() {
 }
 
 function fetchComments(postId) {
-    return fetch(`https://jsonplaceholder.typicode.com/comments?postId=${postId}`)
+    return fetch(`https://jsonplaceholder.typicode.com/comments?postId=1`)
         .then(response => response.json());
 }
 
